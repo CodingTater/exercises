@@ -1,0 +1,153 @@
+/*Your code here*/
+*{
+  text-align: right;
+  position: relative;
+  box-sizing: border-box;
+  border-radius: 2px;
+}
+html{
+  width: 100%;
+}
+body{
+  width: 100%;
+  min-height: 1000px;
+}
+p{
+  bottom: 5px;
+  right: 10px;
+  position: absolute;
+  margin: 1px;
+}
+.blue_container{
+  background-color: #5584BA;
+  width: 100%;
+  min-height: 1000px;
+  overflow: hidden;
+  margin: auto;
+  padding: auto;
+/*This is the main blue box*/
+}
+.red_top{
+  background-color: #B55C53;
+  width: 98%;
+  min-height: 150px;
+  margin: 10px;
+  position: relative;
+  border: #974042 solid 1px;
+}
+/*this is the header*/
+.green_middle{
+  background-color: #A3B55D;
+  width: 98%;
+  min-height: 300px;
+  float:left;
+  overflow: hidden;
+  margin: 10px;
+  padding: 10px 5px 30px 10px;
+  border: #6E8A57 solid 1px;
+}
+/*This is the middle section with the articles and sidebar*/
+.blue_sidebar{
+  background-color: #5584BB;
+  width: 20%;
+  min-height: 300px;
+  float: left;
+  position: relative;
+  box-sizing: border-box;
+  margin: 0px 5px 0px 0px;
+  overflow: hidden;
+  padding: 10px 5px 10px 5px;
+  border: blue solid 1px;
+}
+.purple_content{
+  background-color: #7A6BA1;
+  width: 79%;
+  min-height: 300px;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  box-sizing: border-box;
+  border: #644788 solid 1px;
+}
+/*The purple container for the article box*/
+.yellow_article{
+  background-color: #FFF835;
+  width: auto;
+  min-height: auto;
+  border: #4A589C solid 2px;
+  position: absolute;
+  top: 10px;
+  left: 5px;
+  bottom: 25px;
+  right: 5px;
+}
+/*.white_aside{
+  background-color: #FFFFFF;
+  width: auto;
+  height: 200px;
+  box-sizing: border-box;
+  margin: 1%;
+}*/
+#white{
+  background-color: white;
+  border: solid 1px #155B99;
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+#hidden{
+  background-color: white;
+  border: none;
+}
+/*This is the white aside box*/
+.grey_section{
+  background-color: #D9D9D9;
+  width: auto;
+  min-height: 120px;
+  overflow: hidden;
+  margin: 10px 0px 0px 0px;
+  padding: 15px 2px 30px 2px;
+  box-sizing: border-box;
+  border-radius: 2px;
+  border: blue solid 1px;
+}
+/*The section containing the two side articles*/
+.small_article{
+  background-color: #FFF835;
+  min-height: 30px;
+  margin: 1%;
+  padding: 1px;
+  border: blue solid 1px;
+  border-radius: 2px;
+}
+/*The two small side articles*/
+
+.orange_foot{
+  background-color: #ED9B54;
+  min-height: 150px;
+  clear: both;
+  overflow: hidden;
+  margin: 1%;
+  position: relative;
+  border: #9B6F66 1px solid;
+}
+.nav_bar{
+  background-color: #60AAC4;
+  min-height: 33%;
+  position: absolute;
+  top:15px;
+  right: 10px;
+  left: 10px;
+  border: #4788A0 1px solid;
+
+}
+#lefter{
+  bottom: 5px;
+  right: 20px;
+  position: absolute;
+  margin: 1px;
+}
+#navtext{
+  bottom: 15px;
+  right: 20px;
+  position: absolute;
+}
